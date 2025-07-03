@@ -6,22 +6,11 @@ app
 |   |-> Controllers
 |           |
 |           |-> TodoController
-|
-|-> Interface
+|-> Factories
 |       |
-|       |-> Todo Interface
-|
-|
-|-> Repositories
-|   |
-|   |-> TodoRepository
-|
-|
+|       |-> UserFactory
+|       
 |-> Services
-|   |
-|   |-> TodoService
+|       |
+|       |-> UserService
 |
-
-1. What is the observer pattern and why it's important?
-2. Step by step implementation of Observer pattern in Laravel with Todo application to send notification for newly created todo to the users
-3. Key benefits of using the observer pattern in Laravel projects
