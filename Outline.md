@@ -6,6 +6,7 @@ app
 |   |-> Controllers
 |           |
 |           |-> TodoController
+|   
 |-> Factories
 |       |
 |       |-> UserFactory

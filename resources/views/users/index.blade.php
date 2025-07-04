@@ -9,7 +9,7 @@
         <div class="alert alert-danger">{{ $message }}</div>
     @endif
 
-    <form action="{{ route('users.store') }}" method="POST">
+    <form action="{{ route('user.register') }}" method="POST">
         @csrf
 
         <div class="card px-2">
